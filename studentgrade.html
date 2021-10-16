@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student calculate</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- main html -->
+	<div class="container">
+	<h1>Student grade calculator</h1>
+	<div class="screen-body-item">
+		<div class="app">
+		<div class="form-group">
+			<!-- option for taking the input -->
+			<input
+			type="text"
+			class="form-control"
+			placeholder="cpp"
+			id="cpp"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="Java"
+			id="Java"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="Python"
+			id="Python"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="Ds"
+			id="Ds"
+			/>
+		</div>
+		<div>
+			<input
+			type="button"
+			value="show Percentage"
+			class="form-button"
+			onclick="calculate()"
+			/>
+		</div>
+		</div>
+	</div>
+	<!-- for showing the result-->
+	<div class="form-group showdata">
+		<p id="showdata"></p>
+	</div>
+	</div>
+	<!--adding external javascript file-->
+	<script src="script.js"></script>
+</body>
+</html>
